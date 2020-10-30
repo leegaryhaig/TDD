@@ -1,0 +1,21 @@
+Iterations:
+
+    Iteration 1: Parse Customer Names
+
+    Iteration 2: Parse Customer IP Addresses
+
+    Iteration 3: Parse Customer VLANs
+
+    Iteration 4: Group All Together
+
+Steps used for a specific iteration:
+
+    Write tests
+
+    Run tests (should fail)
+
+    Write code
+
+    Run tests (should pass)
+
+    Refactor code
