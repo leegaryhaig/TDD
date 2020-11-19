@@ -3,8 +3,6 @@ import unittest, re
 with open("config.text", "r") as fd:
 			deviceConfig = fd.read()
 
-
-
 class ConfigurationParser:	
 	def parseCustomerNames(self):
 		customerNamePattern = r'ip vrf ([a-zA-Z_]+)\n'
@@ -41,3 +39,4 @@ class TestParse(unittest.TestCase):
 		parsed_ips = self.cp.parseCustomerIP()
 		self.assertEqual(list, type(parsed_ips))
 		self.assertEqual(expected_ips, parsed_ips)
+
